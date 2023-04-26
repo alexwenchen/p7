@@ -1,7 +1,13 @@
 # p7
-Computer Architecture final project of David Li, Yifan Ma, Yu Lim, Wen Chen.
+C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, Wen Chen.
 
-Note: This project is built off of javidx9 (OneLoneCoder)'s NES emulator tutorial. We followed his tutorial and used his template for the general code structure. 
+# Sources Cited 
 https://www.youtube.com/playlist?list=PLrOv9FMX8xJHqMvSGB_9G9nZZ_4IgteYf
+- This project is built off of javidx9 (OneLoneCoder)'s NES emulator tutorial.
+- We followed his tutorial and used his template for the skeletal code structure.
 
-To run our project, compile and run main.cpp. You should see a table of the sprites of the NES game Donkey Kong, which is as far as we got for the graphics. On the other hand, the CPU and instruction set are fully emulated. All of the instructions ran should print in the console.
+# How to Run
+- To run our project, compile and run main.cpp with the command .
+- You should see the sprite table of the NES game Donkey Kong, which is as far as we got for the graphics by Tuesday night.
+- On the other hand, the NES CPU (based on the MOS Technology 6502) and instruction set are fully emulated.
+- All CPU instructions that ran should print in the console as a way to visualize the program running.
