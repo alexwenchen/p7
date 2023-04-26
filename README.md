@@ -29,6 +29,7 @@ C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, We
 - https://www.libsdl.org/
   - Simple DirectMedia Layer Official Website
 
+# Results
 Here is an image of the sprite table resulting from running our program:
-<img width="1332" alt="image" src="https://user-images.githubusercontent.com/47618496/234450956-f4e8b016-ef88-404d-9177-0fc067323c01.png">
+<img width="1334" alt="image" src="https://user-images.githubusercontent.com/47618496/234451488-adcec01e-62e0-4125-96cc-3a36a4c20a73.png">
 
