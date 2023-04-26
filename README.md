@@ -2,7 +2,9 @@
 C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, Wen Chen.
 
 # How to Run
-- To run our project, compile and run main.cpp with the command .
+- As of right now, the program can only be run on a Windows machine with g++.
+- The reason for this is because we only got SDL working on Windows as of right now.
+- To run our project, compile and run with the command ''make;.//main''.
 - You should see the sprite table of the NES game Donkey Kong, which is as far as we got for the graphics by Tuesday night.
 - On the other hand, the NES CPU (based on the MOS Technology 6502) and instruction set are fully emulated.
 - All CPU instructions that ran should print in the console as a way to visualize the program running.
