@@ -2,7 +2,7 @@
 C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, Wen Chen.
 
 # How to Run
-- As of right now, the program can only be run on a Windows machine with g++.
+- As of right now, the program can only be run on a Windows machine with g++ and SDL installed.
 - The reason for this is because we only got SDL working on Windows as of right now.
 - To run our project, compile and run with the command ```make;.//main```.
 - You should see the sprite table of the NES game Donkey Kong, which is as far as we got for the graphics by Tuesday night.
