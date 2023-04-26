@@ -302,16 +302,14 @@ void MOS6502::Write(uint16_t addr, uint8_t data) {
 
 // Calls everytime a new cycle starts
 void MOS6502::CLK() {
-    //printf("CPU CLOCK, PC: %x, CYCLES: %d\n", PC, cycles);
 
     // Next instruction starts when the previous instruction's cycle count is 0
     if(cycles == 0) {
         opcode = Read(PC);
         ++PC;
-       // printf("CPU CLOCK OPCODE: %d\n", opcode);
 
         cycles = lookup[opcode].cycles;
-        printf("CYCLES %d %x %s %d\n", cycles, opcode, lookup[opcode].name.c_str(), PC);
+        printf("Instruction # %d: %x %s %d\n", cycles, opcode, lookup[opcode].name.c_str(), PC);
         uint8_t const oops_cycle1 = (this->*lookup[opcode].AddrMode)();
         uint8_t oops_cycle2 = 0;
         if(opcode == 0xad) {
@@ -597,12 +595,9 @@ uint8_t MOS6502::ADC() {
 // Logical AND
 uint8_t MOS6502::AND() {
     fetch();
-    // printf("fetched %x\n", fetched_data);
     A = A & fetched_data;
-    // printf("AAAAA %x\n", A);
     SetFlag(PFLAGS::Z, A == 0x00);
     SetFlag(PFLAGS::N, A & 0x80);
-    // ("ZZZZZ %x\n", GetFlag(PFLAGS::Z));
     return 1;
 }
 
