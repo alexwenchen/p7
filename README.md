@@ -21,7 +21,7 @@ C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, We
 - https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/6502.pdf
   - MOS 6502 Manual 2
 - http://www.emulator101.com/6502-addressing-modes.html
-  - Blog post the explained the addressing modes in good detail.
+  - Blog post explaining the addressing modes in good detail.
 - http://www.6502.org/
   - 6502 Central Hub
 - https://yizhang82.dev/blog/nes/
