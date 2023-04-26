@@ -309,7 +309,7 @@ void MOS6502::CLK() {
         ++PC;
 
         cycles = lookup[opcode].cycles;
-        printf("Instruction # %d: %x %s %d\n", cycles, opcode, lookup[opcode].name.c_str(), PC);
+        printf("Next Instruction: %d cycles, %x %s %d\n", cycles, opcode, lookup[opcode].name.c_str(), PC);
         uint8_t const oops_cycle1 = (this->*lookup[opcode].AddrMode)();
         uint8_t oops_cycle2 = 0;
         if(opcode == 0xad) {
