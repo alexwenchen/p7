@@ -31,5 +31,5 @@ C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, We
 
 # Results
 Here is an image of the sprite table resulting from running our program:
-<img width="1334" alt="image" src="https://user-images.githubusercontent.com/47618496/234451488-adcec01e-62e0-4125-96cc-3a36a4c20a73.png">
+<img width="1336" alt="image" src="https://user-images.githubusercontent.com/47618496/234451591-be7e1204-a421-4c8e-a693-4ee262e40156.png">
 
