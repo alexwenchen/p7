@@ -28,3 +28,4 @@ C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, We
   - Blog post with roadmap
 - https://www.libsdl.org/
   - Simple DirectMedia Layer Official Website
+<img width="1337" alt="image" src="https://user-images.githubusercontent.com/47618496/234450249-f6c975f4-a56c-4bb7-8a2d-063f82fdfa2c.png">
