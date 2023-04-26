@@ -11,3 +11,18 @@ C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, We
 - https://www.youtube.com/playlist?list=PLrOv9FMX8xJHqMvSGB_9G9nZZ_4IgteYf
   - This project is built off of javidx9 (OneLoneCoder)'s NES emulator tutorial.
   - We followed his tutorial and used his template for the skeletal code structure.
+- https://www.nesdev.org/wiki/Nesdev_Wiki
+  - The Nesdev Wiki provided the table for the CPU instruction set.
+  - The wiki contained majority of the information we needed to implement the CPU, mappers, PPU, and etc.
+- http://archive.6502.org/datasheets/rockwell_r650x_r651x.pdf
+  - MOS 6502 Manual
+- https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/6502.pdf
+  - MOS 6502 Manual 2
+- http://www.emulator101.com/6502-addressing-modes.html
+  - Blog post the explained the addressing modes in good detail.
+- http://www.6502.org/
+  - 6502 Central Hub
+- https://yizhang82.dev/blog/nes/
+  - Blog post with roadmap
+- https://www.libsdl.org/
+  - Simple DirectMedia Layer Official Website
