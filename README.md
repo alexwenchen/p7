@@ -1,4 +1,4 @@
-# p7
+# p7 - NES Emulator
 C S 429H Computer Architecture's final project by David Li, Yifan Ma, Yu Lim, Wen Chen.
 
 # How to Run
